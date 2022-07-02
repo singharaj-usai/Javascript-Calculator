@@ -85,6 +85,34 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    /* Padding and border are included in the element's total width and height */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font:bold 14px Aria,sans-serif;
+}
+
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14;
+    line-height: 1.5;
+}
+
+
 /* Add a white background color to the top navigation */
 .topnav {
     background-color: rgb(255, 255, 255);
@@ -116,32 +144,8 @@ video {
     padding: 15px;
 }
 
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14;
-    line-height: 1.5;
-}
-
 .center {
     text-align: center;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    /* Padding and border are included in the element's total width and height */
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    font:bold 14px Aria,sans-serif;
-}
-
-html {
-    height: 100%;
-    background: white;
-    background: radial-gradient(circle, #fff 20%, #ccc);
-    background-size: cover;
 }
 
 #calculator {
@@ -268,4 +272,18 @@ html {
 .keys span:active {
     box-shadow: 0px 0px #355bf3;
     top: 4px;
+}
+
+/* Add a white background color to the Footer */
+.footer {
+    background-color: rgb(255, 255, 255);
+    color: #7c7c7c;
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;  
+    bottom:0;
+    position:absolute;
+    width:100%;
+    
+     
 }
