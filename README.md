@@ -1,4 +1,4 @@
-# Singharaj's Password Generator
+# Javascript Calculator
 
 ## Index
 1. [Overview](#overview)
@@ -22,8 +22,8 @@ Live Site URL: https://singharaj-usai.github.io/Javascript-Calculator/
 Repository URL: https://github.com/singharaj-usai/Javascript-Calculator
 
 ## Screenshots
-*Calculator
-    *You are shown a number of keypads that you can press which inputs strings into the inputScreen, and when pressing the equal button, eval() outputs the statement.
+* Calculator
+    * You are shown a number of keypads that you can press which inputs strings into the inputScreen, and when pressing the equal button, eval() outputs the statement.
 ![](./Screenshots/1.png)
 
 
