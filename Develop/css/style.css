@@ -257,3 +257,15 @@ html {
     top: 4px;
     box-shadow: 0px 0px #d3545d;
 }
+
+/* Other Buttons */
+.keys span:hover {
+    background: #5d96f9;
+    box-shadow: 0px 4px #355bf3;
+    color: white;
+}
+
+.keys span:active {
+    box-shadow: 0px 0px #355bf3;
+    top: 4px;
+}
