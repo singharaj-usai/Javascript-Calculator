@@ -214,3 +214,9 @@ html {
     /* Transitions allows you to change property values smoothly  */
     transition: all 0.2s ease;
 }
+
+
+.keys span.operator {
+    background: #FFF0F5;
+    margin-right: 0; /* 7px in previous setting*/
+}
