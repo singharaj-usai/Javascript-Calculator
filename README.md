@@ -13,7 +13,7 @@
 
 ## Summary
 
-Users can input keys by pressing buttons on a calculator to output values. An HTML/CSS powered by Javascript to create a simple calculator.
+💻 Users can input keys by pressing buttons on a calculator to output values. An HTML/CSS powered by Javascript to create a simple calculator.
 
 ## Links
 
