@@ -9,7 +9,7 @@
 
 # Overview
 
-🖩 A simple static calculator that is powered by Javascript using key inputs.
+⚡ A simple static calculator that is powered by Javascript using key inputs.
 
 ## Summary
 
