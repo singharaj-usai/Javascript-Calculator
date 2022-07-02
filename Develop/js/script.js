@@ -15,6 +15,9 @@ function load() {
             btnValue = this.innerHTML;
             input = inputScreen.innerHTML;
 
-        }
-    }
-}
+            switch (btnValue) {
+                case 'C':
+                    inputScreen.innerHTML = '';
+                    decimalAdded = false;
+                    break;
+                case '=':
