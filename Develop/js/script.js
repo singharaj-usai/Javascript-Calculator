@@ -33,9 +33,9 @@ function load() {
                                         input = input.replace(/.$/, '');
                 
                                     if(input) {
-                                        // If the argument is an expression, equal() evaluates the expression.
-                                        // If the argument is one or more JavaScript statements, equal() executes the statements.
-                                        inputScreen.innerHTML = equal(input);
+                                        // If the argument is an expression, eval() evaluates the expression.
+                                        // If the argument is one or more JavaScript statements, eval() executes the statements.
+                                        inputScreen.innerHTML = eval(input);
                                     }
                                     decimalAdded = false;
                                     break;
@@ -48,7 +48,7 @@ function load() {
                                 case '÷':
                                 case 'x':
                                 case '-':
-                                case '+':
+                                case '÷':
                                     // Last char of string
                                     var lastChar = input[input.length - 1];
                 
