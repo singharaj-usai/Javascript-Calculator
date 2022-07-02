@@ -21,3 +21,6 @@ function load() {
                     decimalAdded = false;
                     break;
                 case '=':
+                  // Last char of string
+                  var lastChar = input[input.length - 1];
+                
